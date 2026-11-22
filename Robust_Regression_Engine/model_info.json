@@ -1,0 +1,81 @@
+{
+  "best_model": "SVR (RBF kernel)",
+  "features": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "location_score",
+    "property_age",
+    "distance_city_km",
+    "near_school",
+    "near_metro",
+    "crime_rate_index",
+    "sale_year"
+  ],
+  "target": "house_price_inr",
+  "sklearn_version": "1.8.0",
+  "test_metrics": {
+    "RMSE": 2212744.0465692636,
+    "MAE": 1612006.5615288967,
+    "R2": 0.9392037508933884,
+    "MSE": 4896236215627.719
+  },
+  "cv_rmse": 2207323.514503482,
+  "feature_ranges": {
+    "area_sqft": {
+      "min": 500.0,
+      "max": 3776.0,
+      "median": 1700.5
+    },
+    "bedrooms": {
+      "min": 1.0,
+      "max": 7.0,
+      "median": 3.0
+    },
+    "bathrooms": {
+      "min": 1.0,
+      "max": 6.0,
+      "median": 3.0
+    },
+    "location_score": {
+      "min": 1.0,
+      "max": 10.0,
+      "median": 6.5
+    },
+    "property_age": {
+      "min": 1.0,
+      "max": 80.0,
+      "median": 20.0
+    },
+    "distance_city_km": {
+      "min": 1.0,
+      "max": 38.7,
+      "median": 13.0
+    },
+    "near_school": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0
+    },
+    "near_metro": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0
+    },
+    "crime_rate_index": {
+      "min": 0.5,
+      "max": 12.0,
+      "median": 4.22
+    },
+    "sale_year": {
+      "min": 2010.0,
+      "max": 2023.0,
+      "median": 2016.0
+    }
+  },
+  "best_params": {
+    "C": 100.0,
+    "epsilon": 0.02,
+    "gamma": 0.003
+  }
+}
