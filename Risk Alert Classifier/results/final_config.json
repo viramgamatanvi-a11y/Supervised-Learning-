@@ -1,0 +1,42 @@
+{
+  "model_name": "Logistic + SMOTE",
+  "threshold": 0.4,
+  "columns": [
+    "age",
+    "annual_income_inr",
+    "credit_score",
+    "credit_utilization_ratio",
+    "missed_payments_12m",
+    "avg_late_payment_days",
+    "monthly_transaction_count",
+    "monthly_spend_inr",
+    "cash_advance_count_6m",
+    "complaints_last_6m",
+    "failed_login_attempts_3m",
+    "account_tenure_months",
+    "debt_balance_inr",
+    "days_since_last_txn",
+    "gender_Male",
+    "gender_Other",
+    "region_East",
+    "region_North",
+    "region_South",
+    "region_Unknown",
+    "region_West",
+    "employment_type_Salaried",
+    "employment_type_Self-Employed",
+    "employment_type_Student",
+    "employment_type_Unemployed",
+    "employment_type_Unknown"
+  ],
+  "ref_date": "2025-12-01",
+  "metrics": {
+    "Threshold": 0.4,
+    "Accuracy": 0.9989130434782608,
+    "Precision": 0.9910714285714286,
+    "Recall": 1.0,
+    "F1": 0.9955156950672646,
+    "FP": 1.0,
+    "FN": 0.0
+  }
+}

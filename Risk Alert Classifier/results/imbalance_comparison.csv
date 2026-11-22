@@ -1,0 +1,6 @@
+Model,Test Acc,Precision,Recall,F1,AUC-ROC
+Logistic (Baseline),1.0,1.0,1.0,1.0,1.0
+Logistic + Under-Sampling,0.997,0.974,1.0,0.987,1.0
+Logistic + Over-Sampling,0.999,0.991,1.0,0.996,1.0
+Logistic + SMOTE,1.0,1.0,1.0,1.0,1.0
+Logistic + ADASYN,0.998,0.982,1.0,0.991,1.0
