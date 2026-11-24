@@ -1,0 +1,4 @@
+,Accuracy,Precision,Recall,F1,"CV F1 (5-fold, train)",ROC-AUC
+KNN,1.0,1.0,1.0,1.0,1.0,1.0
+SVM (RBF),1.0,1.0,1.0,1.0,1.0,1.0
+Naive Bayes,1.0,1.0,1.0,1.0,1.0,1.0
